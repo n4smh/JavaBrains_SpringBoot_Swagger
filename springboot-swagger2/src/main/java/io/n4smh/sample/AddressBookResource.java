@@ -22,7 +22,7 @@ public class AddressBookResource {
 
 	@GetMapping("/{id}")
 	@ApiOperation(value = "Find contact by id", notes = "Provide an id to look-up specific contact from the address book", response = Contact.class)
-	public Contact getContace(
+	public Contact getContact(
 			@ApiParam(value = "Id of the contact that needs to be retrived", required = true) @PathVariable String id) {
 		return contacts.get(id);
 	}
