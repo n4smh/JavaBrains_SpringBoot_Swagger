@@ -1,4 +1,4 @@
-# JavaBrains_SpringBoot_Swagger
+# SpringBoot_Swagger
 Repo contains SpringBoot Swagger basics code created by refering to JavaBrains. <br/>
 
 ### Run command 
